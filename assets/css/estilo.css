@@ -1,0 +1,82 @@
+/* RESET GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20230707/pngtree-web-development-concept-3d-illustrated-programming-and-coding-image_3766213.jpg") no-repeat;
+    background-size: cover;
+   
+   
+}
+
+.fundo h1 {
+   color: rgb(133, 138, 138);
+   position: absolute;
+   top: 5%;
+   font-size: 2.5rem;
+   text-shadow: rgba(94, 94, 245, 0.877);
+}
+
+.calculadora {
+    background: #494747c0;
+    padding: 1rem;
+    border-radius:  10px;
+    box-shadow: 3px 3px white;
+}
+
+.calculadora h2 {
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+#resultado {
+    background-color: #fff;
+    color: black;
+    height: 2rem; 
+    text-align: right;
+    padding: .2rem .5rem;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    margin: 1rem auto 1rem;
+    overflow: hidden;
+    width: 14rem;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin: .3rem;
+    box-shadow: 3px 3px black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(98, 167, 144, 0.308);
+    color: black;
+}
+
+td[rowspan="2"] button {
+    background-color: rgb(153, 147, 147);
+    height: 108px;
+    color: #fff;
+}
+
+td[colspan="2"] button {
+    width: 6.75rem;
+}
+
+button:active {
+    font-size: 1rem;
+    transform: scale(-90%);
+}
